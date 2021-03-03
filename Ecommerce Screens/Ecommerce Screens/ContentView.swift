@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TabView {
-                Text("The First Tab")
+                HomeScreenView()
                     .tabItem {
                         Image("home")
                         Text("Home")
@@ -38,11 +38,14 @@ struct ContentView: View {
                 UITabBar.appearance().barTintColor = .white
             }
         }
+        .navigationTitle("NIKE")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationView{
+            ContentView()
+        }
     }
 }
