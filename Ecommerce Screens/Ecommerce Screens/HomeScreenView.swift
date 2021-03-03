@@ -20,17 +20,18 @@ struct HomeScreenView: View {
             }
             .frame(height: 144)
             .padding()
-            Spacer()
             HStack {
                 VStack{
                     Text("All")
                         .foregroundColor(.white)
                 }
                 .frame(width: 120, height: 72, alignment: .center)
-                
                 .background(Color.black)
                 .cornerRadius(24)
+                Spacer()
             }
+            .padding(.horizontal)
+            Spacer()
         }
     }
 }
