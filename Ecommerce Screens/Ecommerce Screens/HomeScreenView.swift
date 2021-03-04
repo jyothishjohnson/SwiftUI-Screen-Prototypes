@@ -12,7 +12,7 @@ struct HomeScreenView: View {
         VStack {
             ZStack{
                 HomeTopBannerView()
-                    
+                
                 VStack{
                     Spacer()
                     PageControl()
@@ -20,15 +20,61 @@ struct HomeScreenView: View {
             }
             .frame(height: 144)
             .padding()
-            HStack {
-                VStack{
-                    Text("All")
-                        .foregroundColor(.white)
+            
+            ScrollView(.horizontal, showsIndicators: false){
+                HStack {
+                    VStack{
+                        Text("All")
+                            .foregroundColor(.white)
+                    }
+                    .frame(minWidth: 100, maxWidth: 200, minHeight: 64, maxHeight: 64)
+                    .background(Color.black)
+                    .cornerRadius(32)
+                    .padding(.trailing)
+                    VStack{
+                        Text("New Arrivals")
+                            .foregroundColor(.black)
+                    }
+                    .padding()
+                    .frame(minWidth: 100, maxWidth: 200, minHeight: 64, maxHeight: 64)
+                    .background(Color.white)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 32)
+                            .stroke(Color(0xcfcfcf), lineWidth: 1.0)
+                    )
+                    .cornerRadius(32)
+                    .padding(.trailing)
+                    
+                    VStack{
+                        Text("Men")
+                            .foregroundColor(.black)
+                    }
+                    .padding()
+                    .frame(minWidth: 100, maxWidth: 200, minHeight: 64, maxHeight: 64)
+                    .background(Color.white)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 32)
+                            .stroke(Color(0xcfcfcf), lineWidth: 1.0)
+                    )
+                    .cornerRadius(32)
+                    .padding(.trailing)
+                    
+                    VStack{
+                        Text("Women")
+                            .foregroundColor(.black)
+                    }
+                    .padding()
+                    .frame(minWidth: 100, maxWidth: 200, minHeight: 64, maxHeight: 64)
+                    .background(Color.white)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 32)
+                            .stroke(Color(0xcfcfcf), lineWidth: 1.0)
+                    )
+                    .cornerRadius(32)
+                    .padding(.trailing)
+                    
+                    Spacer()
                 }
-                .frame(width: 120, height: 72, alignment: .center)
-                .background(Color.black)
-                .cornerRadius(24)
-                Spacer()
             }
             .padding(.horizontal)
             Spacer()
