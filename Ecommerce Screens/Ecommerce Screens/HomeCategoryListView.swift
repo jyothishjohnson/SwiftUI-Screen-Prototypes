@@ -13,21 +13,23 @@ struct HomeCategoryListView: View {
             HStack {
                 VStack{
                     Text("All")
+                        .fontWeight(.thin)
                         .foregroundColor(.white)
                 }
-                .frame(minWidth: 100, maxWidth: 200, minHeight: 64, maxHeight: 64)
+                .frame(minWidth: 100, maxWidth: 200, minHeight: 52, maxHeight: 52)
                 .background(Color.black)
-                .cornerRadius(32)
+                .cornerRadius(26)
                 .padding(.trailing)
                 VStack{
                     Text("New Arrivals")
+                        .fontWeight(.thin)
                         .foregroundColor(.black)
                 }
                 .padding()
-                .frame(minWidth: 100, maxWidth: 200, minHeight: 64, maxHeight: 64)
+                .frame(minWidth: 100, maxWidth: 200, minHeight: 52, maxHeight: 52)
                 .background(Color.white)
                 .overlay(
-                    RoundedRectangle(cornerRadius: 32)
+                    RoundedRectangle(cornerRadius: 26)
                         .stroke(Color(0xcfcfcf), lineWidth: 1.0)
                 )
                 .cornerRadius(32)
@@ -35,13 +37,14 @@ struct HomeCategoryListView: View {
                 
                 VStack{
                     Text("Men")
+                        .fontWeight(.thin)
                         .foregroundColor(.black)
                 }
                 .padding()
-                .frame(minWidth: 100, maxWidth: 200, minHeight: 64, maxHeight: 64)
+                .frame(minWidth: 100, maxWidth: 200, minHeight: 52, maxHeight: 52)
                 .background(Color.white)
                 .overlay(
-                    RoundedRectangle(cornerRadius: 32)
+                    RoundedRectangle(cornerRadius: 26)
                         .stroke(Color(0xcfcfcf), lineWidth: 1.0)
                 )
                 .cornerRadius(32)
@@ -49,13 +52,14 @@ struct HomeCategoryListView: View {
                 
                 VStack{
                     Text("Women")
+                        .fontWeight(.thin)
                         .foregroundColor(.black)
                 }
                 .padding()
-                .frame(minWidth: 100, maxWidth: 200, minHeight: 64, maxHeight: 64)
+                .frame(minWidth: 100, maxWidth: 200, minHeight: 52, maxHeight: 52)
                 .background(Color.white)
                 .overlay(
-                    RoundedRectangle(cornerRadius: 32)
+                    RoundedRectangle(cornerRadius: 26)
                         .stroke(Color(0xcfcfcf), lineWidth: 1.0)
                 )
                 .cornerRadius(32)
