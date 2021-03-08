@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct HomeTopBannerView: View {
+    
+    var imageName : String = "banner1"
+    
     var body: some View {
-        Image("banner")
+        Image(imageName)
             .resizable()
             .aspectRatio(contentMode: .fill)
             .cornerRadius(8)

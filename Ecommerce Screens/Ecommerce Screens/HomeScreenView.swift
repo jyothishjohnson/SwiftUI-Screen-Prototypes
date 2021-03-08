@@ -10,11 +10,18 @@ import SwiftUI
 struct HomeScreenView: View {
     
     let images = ["img0","img1","img2","img3","img4"]
+    let bannerImages = ["banner1", "banner2"]
     
     var body: some View {
         VStack {
             ZStack{
-                HomeTopBannerView()
+                ScrollView(.horizontal, showsIndicators: false){
+                    HStack {
+                        ForEach(bannerImages, id: \.self) { imageName in
+                            HomeTopBannerView(imageName: imageName)
+                        }
+                    }
+                }
                 
                 VStack{
                     Spacer()
