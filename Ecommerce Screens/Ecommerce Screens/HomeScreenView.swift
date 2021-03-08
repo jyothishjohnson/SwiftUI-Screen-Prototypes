@@ -35,6 +35,29 @@ struct HomeScreenView: View {
             }
             .padding([.leading,.top])
             
+            HStack {
+                Text("Featured Categories")
+                    .font(.system(size: 24, weight: .semibold, design: .default))
+                    .padding()
+                
+                Spacer()
+                
+                Text("View All")
+                    .foregroundColor(.lightGray)
+                    .fontWeight(.light)
+                    .padding()
+            }
+            
+            ScrollView(.horizontal, showsIndicators: false){
+                HStack {
+                    ForEach(images.shuffled(), id: \.self) { imageName in
+                        HomePortraitProductView(imageName: imageName)
+                    }
+                }
+            }
+            .padding([.leading,.top])
+            
+            
             Spacer()
         }
     }
