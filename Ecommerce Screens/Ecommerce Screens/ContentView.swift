@@ -11,11 +11,13 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TabView {
-                HomeScreenView()
-                    .tabItem {
-                        Image("home")
-                        Text("Home")
-                    }
+                ScrollView(.vertical, showsIndicators: false){
+                    HomeScreenView()
+                }
+                .tabItem {
+                    Image("home")
+                    Text("Home")
+                }
                 Text("Another Tab")
                     .tabItem {
                         Image("wishlist")
