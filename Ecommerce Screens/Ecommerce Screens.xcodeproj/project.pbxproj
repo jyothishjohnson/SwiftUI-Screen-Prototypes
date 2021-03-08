@@ -57,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				22DD864425F0B75B00CD94BE /* README.md */,
+				22E7DAAC25F6714E006F98EF /* home.png */,
+				22E7DAAD25F6714E006F98EF /* home2.png */,
 				226DDC8325EFBD5B008926D9 /* Ecommerce Screens */,
 				226DDC8225EFBD5B008926D9 /* Products */,
 			);
@@ -75,8 +77,6 @@
 			children = (
 				226DDC8425EFBD5B008926D9 /* Ecommerce_ScreensApp.swift */,
 				226DDC8625EFBD5B008926D9 /* ContentView.swift */,
-				22E7DAAC25F6714E006F98EF /* home.png */,
-				22E7DAAD25F6714E006F98EF /* home2.png */,
 				226DDC9425EFC399008926D9 /* HomeScreenView.swift */,
 				22DD863E25F0A49100CD94BE /* HomePortraitProductView.swift */,
 				22DD864125F0B26400CD94BE /* RoundedCorners.swift */,
