@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2252FC5925F9DD170060E8D8 /* PLPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FC5825F9DD170060E8D8 /* PLPView.swift */; };
 		226DDC8525EFBD5B008926D9 /* Ecommerce_ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226DDC8425EFBD5B008926D9 /* Ecommerce_ScreensApp.swift */; };
 		226DDC8725EFBD5B008926D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226DDC8625EFBD5B008926D9 /* ContentView.swift */; };
 		226DDC8925EFBD61008926D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226DDC8825EFBD61008926D9 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2252FC5825F9DD170060E8D8 /* PLPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLPView.swift; sourceTree = "<group>"; };
 		226DDC8125EFBD5B008926D9 /* Ecommerce Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecommerce Screens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226DDC8425EFBD5B008926D9 /* Ecommerce_ScreensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecommerce_ScreensApp.swift; sourceTree = "<group>"; };
 		226DDC8625EFBD5B008926D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				226DDC8425EFBD5B008926D9 /* Ecommerce_ScreensApp.swift */,
 				226DDC8625EFBD5B008926D9 /* ContentView.swift */,
 				226DDC9425EFC399008926D9 /* HomeScreenView.swift */,
+				2252FC5825F9DD170060E8D8 /* PLPView.swift */,
 				22DD863E25F0A49100CD94BE /* HomePortraitProductView.swift */,
 				22DD864125F0B26400CD94BE /* RoundedCorners.swift */,
 				22DD863B25F0A3D200CD94BE /* HomeCategoryListView.swift */,
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22DD863525F09D0A00CD94BE /* PageControl.swift in Sources */,
+				2252FC5925F9DD170060E8D8 /* PLPView.swift in Sources */,
 				226DDC9525EFC399008926D9 /* HomeScreenView.swift in Sources */,
 				22DD863F25F0A49100CD94BE /* HomePortraitProductView.swift in Sources */,
 				22DD863C25F0A3D200CD94BE /* HomeCategoryListView.swift in Sources */,
