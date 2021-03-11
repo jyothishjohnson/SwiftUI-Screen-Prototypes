@@ -37,6 +37,7 @@ struct HomeScreenView: View {
                 HStack {
                     ForEach(images, id: \.self) { imageName in
                         HomePortraitProductView(imageName: imageName)
+                            .padding(.trailing,10)
                     }
                 }
             }
@@ -59,6 +60,7 @@ struct HomeScreenView: View {
                 HStack {
                     ForEach(images.shuffled(), id: \.self) { imageName in
                         HomePortraitProductView(imageName: imageName)
+                            .padding(.trailing,10)
                     }
                 }
             }
@@ -73,6 +75,6 @@ struct HomeScreenView: View {
 struct HomeScreenView_Previews: PreviewProvider {
     static var previews: some View {
         HomeScreenView()
-//            .previewLayout(.sizeThatFits)
+        //            .previewLayout(.sizeThatFits)
     }
 }

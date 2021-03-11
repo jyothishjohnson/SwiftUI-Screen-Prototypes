@@ -54,7 +54,6 @@ struct HomePortraitProductView: View {
             Spacer()
         }
         .frame(width: 160, height: 268, alignment: .center)
-        .padding(.trailing,10)
     }
 }
 
