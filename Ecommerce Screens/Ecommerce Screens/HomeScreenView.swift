@@ -18,7 +18,9 @@ struct HomeScreenView: View {
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack {
                         ForEach(bannerImages, id: \.self) { imageName in
-                            HomeTopBannerView(imageName: imageName)
+                            NavigationLink(destination: PLPView()){
+                                HomeTopBannerView(imageName: imageName)
+                            }
                         }
                     }
                 }
