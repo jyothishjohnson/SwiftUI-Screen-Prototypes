@@ -16,9 +16,6 @@
 		226DDC9825EFCDA1008926D9 /* HomeTopBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226DDC9725EFCDA1008926D9 /* HomeTopBannerView.swift */; };
 		22D2A3CF2601D4D100C72974 /* PLPSortFilterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2A3CE2601D4D100C72974 /* PLPSortFilterHeaderView.swift */; };
 		22D2A3D22602380E00C72974 /* PDPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2A3D12602380E00C72974 /* PDPView.swift */; };
-		22D2A3D72602427600C72974 /* Image 28.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D2A3D42602427600C72974 /* Image 28.png */; };
-		22D2A3D82602427600C72974 /* Image 28@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D2A3D52602427600C72974 /* Image 28@2x.png */; };
-		22D2A3D92602427600C72974 /* Image 28@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D2A3D62602427600C72974 /* Image 28@3x.png */; };
 		22D2A3DD2602453B00C72974 /* PDPProductInitialDescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2A3DC2602453B00C72974 /* PDPProductInitialDescView.swift */; };
 		22D2A3E02602560E00C72974 /* PDPColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2A3DF2602560E00C72974 /* PDPColorsView.swift */; };
 		22D2A3E32602589000C72974 /* PDPColorsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2A3E22602589000C72974 /* PDPColorsCollectionView.swift */; };
@@ -44,9 +41,6 @@
 		226DDC9725EFCDA1008926D9 /* HomeTopBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopBannerView.swift; sourceTree = "<group>"; };
 		22D2A3CE2601D4D100C72974 /* PLPSortFilterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLPSortFilterHeaderView.swift; sourceTree = "<group>"; };
 		22D2A3D12602380E00C72974 /* PDPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPView.swift; sourceTree = "<group>"; };
-		22D2A3D42602427600C72974 /* Image 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 28.png"; sourceTree = "<group>"; };
-		22D2A3D52602427600C72974 /* Image 28@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 28@2x.png"; sourceTree = "<group>"; };
-		22D2A3D62602427600C72974 /* Image 28@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 28@3x.png"; sourceTree = "<group>"; };
 		22D2A3DC2602453B00C72974 /* PDPProductInitialDescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPProductInitialDescView.swift; sourceTree = "<group>"; };
 		22D2A3DF2602560E00C72974 /* PDPColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPColorsView.swift; sourceTree = "<group>"; };
 		22D2A3E22602589000C72974 /* PDPColorsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPColorsCollectionView.swift; sourceTree = "<group>"; };
@@ -108,9 +102,6 @@
 				22DD863425F09D0A00CD94BE /* PageControl.swift */,
 				226DDC9725EFCDA1008926D9 /* HomeTopBannerView.swift */,
 				226DDC8825EFBD61008926D9 /* Assets.xcassets */,
-				22D2A3D42602427600C72974 /* Image 28.png */,
-				22D2A3D52602427600C72974 /* Image 28@2x.png */,
-				22D2A3D62602427600C72974 /* Image 28@3x.png */,
 				22DD863825F09F0900CD94BE /* Color+Codable.swift */,
 				226DDC8D25EFBD61008926D9 /* Info.plist */,
 				226DDC8A25EFBD61008926D9 /* Preview Content */,
@@ -184,10 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22E7DAAE25F6714E006F98EF /* home.png in Resources */,
-				22D2A3D82602427600C72974 /* Image 28@2x.png in Resources */,
-				22D2A3D92602427600C72974 /* Image 28@3x.png in Resources */,
 				22DD864525F0B75B00CD94BE /* README.md in Resources */,
-				22D2A3D72602427600C72974 /* Image 28.png in Resources */,
 				226DDC8C25EFBD61008926D9 /* Preview Assets.xcassets in Resources */,
 				226DDC8925EFBD61008926D9 /* Assets.xcassets in Resources */,
 				22E7DAAF25F6714E006F98EF /* home2.png in Resources */,
