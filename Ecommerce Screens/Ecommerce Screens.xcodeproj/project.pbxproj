@@ -49,9 +49,9 @@
 		22DD863B25F0A3D200CD94BE /* HomeCategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryListView.swift; sourceTree = "<group>"; };
 		22DD863E25F0A49100CD94BE /* HomePortraitProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePortraitProductView.swift; sourceTree = "<group>"; };
 		22DD864125F0B26400CD94BE /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
-		22DD864425F0B75B00CD94BE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		22E7DAAC25F6714E006F98EF /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = SOURCE_ROOT; };
-		22E7DAAD25F6714E006F98EF /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home2.png; sourceTree = SOURCE_ROOT; };
+		22DD864425F0B75B00CD94BE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		22E7DAAC25F6714E006F98EF /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = CommonRes/home.png; sourceTree = SOURCE_ROOT; };
+		22E7DAAD25F6714E006F98EF /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home2.png; path = CommonRes/home2.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +68,7 @@
 		226DDC7825EFBD5B008926D9 = {
 			isa = PBXGroup;
 			children = (
-				22DD864425F0B75B00CD94BE /* README.md */,
-				22E7DAAC25F6714E006F98EF /* home.png */,
-				22E7DAAD25F6714E006F98EF /* home2.png */,
+				227EAFE62603281900F78997 /* CommonRes */,
 				226DDC8325EFBD5B008926D9 /* Ecommerce Screens */,
 				226DDC8225EFBD5B008926D9 /* Products */,
 			);
@@ -115,6 +113,16 @@
 				226DDC8B25EFBD61008926D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		227EAFE62603281900F78997 /* CommonRes */ = {
+			isa = PBXGroup;
+			children = (
+				22DD864425F0B75B00CD94BE /* README.md */,
+				22E7DAAC25F6714E006F98EF /* home.png */,
+				22E7DAAD25F6714E006F98EF /* home2.png */,
+			);
+			path = CommonRes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
