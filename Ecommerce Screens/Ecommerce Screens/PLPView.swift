@@ -10,35 +10,50 @@ import SwiftUI
 struct PLPView: View {
     
     let data = Array(1...1000).map{ "Item \($0)"}
-    
     let images = Array(0...9).map{ "img\($0)"}
-        
     let layout = [
-        GridItem(.adaptive(minimum: 210))
+        GridItem(.adaptive(minimum: (UIScreen.main.bounds.width / 2) - 20))
     ]
+    
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false) {
-            VStack {
-                
-                PLPSortFilterHeaderView()
-                
+        VStack(spacing: 4) {
+            PLPSortFilterHeaderView()
+            ScrollView(.vertical, showsIndicators: false) {
                 LazyVGrid(columns: layout, alignment: .center, spacing: 10) {
                     ForEach(data, id: \.self) { _ in
-                        HomePortraitProductView(imageName: images.randomElement()!)
+                        NavigationLink(destination: PDPView()){
+                            HomePortraitProductView(imageName: images.randomElement()!)
+                        }
+                        .buttonStyle(PlainButtonStyle())
                     }
                 }
+                
             }
+            .onAppear{
+                print(UIScreen().bounds.width)
+            }
+            .navigationTitle("Featured Products")
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .navigationTitle("Featured products...")
-        .navigationBarTitleDisplayMode(.inline)
-
     }
 }
 
 struct PLPView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
-            PLPView()
+        Group {
+            NavigationView {
+                PLPView()
+            }
+            
+            NavigationView {
+                PLPView()
+            }
+            .previewDevice("iPhone 8")
+            
+            NavigationView {
+                PLPView()
+            }
+            .previewDevice("iPhone 12 mini")
         }
     }
 }

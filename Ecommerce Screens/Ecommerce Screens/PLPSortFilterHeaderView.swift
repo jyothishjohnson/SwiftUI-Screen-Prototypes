@@ -17,7 +17,7 @@ struct PLPSortFilterHeaderView: View {
                     .font(.title3)
                     .fontWeight(.thin)
             }
-            .padding()
+            .padding(10)
             .frame(minWidth: 170)
             .cornerRadius(10)
             .overlay(
@@ -33,7 +33,7 @@ struct PLPSortFilterHeaderView: View {
                     .font(.title3)
                     .fontWeight(.thin)
             }
-            .padding()
+            .padding(10)
             .frame(minWidth: 170)
             .cornerRadius(10)
             .overlay(
@@ -42,7 +42,7 @@ struct PLPSortFilterHeaderView: View {
             )
             Spacer()
         }
-        .frame(height: 64)
+        .frame(height: 56)
         .padding(.top,10)
     }
 }
