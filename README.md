@@ -5,7 +5,16 @@ A collection of App prototype screens made with SwiftUI, to experiment and test 
 
 ### Home Screen
 
-<img src="/Ecommerce Screens/home2.png" width="328" height="672"> 
+<img src="/Ecommerce Screens/CommonRes/home3.png" width="292.5" height="633">
 
-<img src="/Ecommerce Screens/home.png" width="289" height="573"> 
+<img src="/Ecommerce Screens/CommonRes/home4.png" width="292.5" height="633"> 
 
+### PDP Screen
+
+<img src="/Ecommerce Screens/CommonRes/home5.png" width="292.5" height="633"> 
+
+<img src="/Ecommerce Screens/CommonRes/home6.png" width="292.5" height="633"> 
+
+### PLP Screen
+
+<img src="/Ecommerce Screens/CommonRes/home7.png" width="292.5" height="633"> 
