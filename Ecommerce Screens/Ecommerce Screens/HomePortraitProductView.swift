@@ -25,14 +25,16 @@ struct HomePortraitProductView: View {
                         Spacer()
                         HStack{
                             Text("New")
+                                .terminaText(with: 10)
                                 .foregroundColor(.white)
                         }
-                        .frame(width: 54, height: 24)
+                        .frame(width: 48, height: 24)
                         .background(
                             RoundedCorners(color: Color(0x83BA27), tl: 20, tr: 0, bl: 0, br: 20)
                         )
+                        .padding(.trailing,6)
                         Spacer()
-                            .frame(height:8)
+                            .frame(height:12)
                     }
                 }
                 Spacer()
@@ -40,20 +42,20 @@ struct HomePortraitProductView: View {
             
             HStack {
                 Text("White Metal badge t-shirt")
-                    .font(.caption)
-                    .fontWeight(.thin)
+                    .terminaText(with: 10, weight: .light)
                 Spacer()
             }
+            .padding(.leading, 6)
 
             HStack {
                 Text("149.00 AED")
-                    .font(.subheadline)
-                    .fontWeight(.heavy)
+                    .terminaText(with: 13, weight: .demi)
                 Spacer()
             }
+            .padding(.leading, 6)
             Spacer()
         }
-        .frame(width: 160, height: 268, alignment: .center)
+        .frame(width: 172, height: 268, alignment: .center)
     }
 }
 

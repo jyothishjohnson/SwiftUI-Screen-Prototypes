@@ -31,42 +31,52 @@ struct HomeScreenView: View {
                 }
             }
             .frame(height: 144)
-            .padding()
+            .padding([.leading,.trailing,.top])
+            .padding(.bottom,8)
             
             HomeCategoryListView()
             
             ScrollView(.horizontal, showsIndicators: false){
                 HStack {
                     ForEach(images, id: \.self) { imageName in
-                        HomePortraitProductView(imageName: imageName)
-                            .padding(.trailing,10)
+                        NavigationLink(destination: PDPView()){
+                            HomePortraitProductView(imageName: imageName)
+                                .padding(.trailing,8)
+                        }
+                        .buttonStyle(PlainButtonStyle())
                     }
                 }
             }
-            .padding([.leading,.top])
+            .padding([.leading])
+            .padding(.top, 8)
             
             HStack {
                 Text("Featured Categories")
-                    .font(.system(size: 24, weight: .semibold, design: .default))
-                    .padding()
+                    .terminaText(with: 15, weight: .demi)
+                    .padding(8)
+                    .padding(.leading, 8)
                 
                 Spacer()
                 
                 Text("View All")
                     .foregroundColor(.lightGray)
-                    .fontWeight(.light)
-                    .padding()
+                    .terminaText(with: 10)
+                    .padding(.trailing,12)
             }
             
             ScrollView(.horizontal, showsIndicators: false){
                 HStack {
                     ForEach(images.shuffled(), id: \.self) { imageName in
-                        HomePortraitProductView(imageName: imageName)
-                            .padding(.trailing,10)
+                        NavigationLink(destination: PDPView()){
+                            HomePortraitProductView(imageName: imageName)
+                                .padding(.trailing,10)
+                        }
+                        .buttonStyle(PlainButtonStyle())
                     }
                 }
             }
-            .padding([.leading,.top])
+            .padding([.leading])
+            .padding(.top, 4)
             
             
             Spacer()
@@ -76,7 +86,10 @@ struct HomeScreenView: View {
 
 struct HomeScreenView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeScreenView()
-        //            .previewLayout(.sizeThatFits)
+        NavigationView{
+            HomeScreenView()
+            //            .previewLayout(.sizeThatFits)
+        }
+        
     }
 }

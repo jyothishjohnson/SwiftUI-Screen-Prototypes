@@ -12,11 +12,10 @@ struct PDPView: View {
     let images = ["img0","img1","img2","img3","img4"]
     
     var body: some View {
-        
         ScrollView(.vertical, showsIndicators: false) {
             
             GeometryReader { reader in
-                Image("img1")
+                Image("img3")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .offset(y: -reader.frame(in: .global).minY)
@@ -30,8 +29,7 @@ struct PDPView: View {
                 PDPColorsCollectionView()
                 
                 Text("Description")
-                    .font(.title)
-                    .fontWeight(.semibold)
+                    .terminaText(with: 13, weight: .demi)
                     .padding(.horizontal,8)
                     .padding(.top)
                 
@@ -40,22 +38,25 @@ struct PDPView: View {
                     SWEATERS FL_SWEATERS
                     L12D16
                     """)
+                        .terminaText(with: 14, weight: .light)
                         .padding(.horizontal,8)
                     Spacer()
                 }
+                .padding(.vertical, 4)
                 
                 HStack {
-                    Text("Featured Categories")
-                        .font(.system(size: 24, weight: .semibold, design: .default))
+                    Text("Similar Products")
+                        .terminaText(with: 13, weight: .demi)
                         .padding(.horizontal,8)
                     
                     Spacer()
                     
                     Text("View All")
                         .foregroundColor(.lightGray)
-                        .fontWeight(.light)
+                        .terminaText(with: 12)
                         .padding(.horizontal,8)
                 }
+                .padding(.top, 8)
                 
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack {
@@ -65,25 +66,23 @@ struct PDPView: View {
                         }
                     }
                 }
-                .padding([.leading,.top])
+                .padding([.leading],8)
             }
             .padding(.top)
             .padding(.horizontal,10)
             .background(Color.white)
             .cornerRadius(24)
-            .offset(y: -40)
+            .offset(y: -30)
             
         }
-        .navigationTitle("")
         .edgesIgnoringSafeArea(.all)
+//        .navigationBarHidden(true)
     }
+    
 }
 
 struct PDPView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView{
-            PDPView()
-                .navigationTitle("")
-        }
+        PDPView()
     }
 }

@@ -32,9 +32,9 @@ struct PLPView: View {
             .onAppear{
                 print(UIScreen().bounds.width)
             }
-            .navigationTitle("Featured Products")
             .navigationBarTitleDisplayMode(.inline)
         }
+        
     }
 }
 

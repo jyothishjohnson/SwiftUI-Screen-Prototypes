@@ -12,8 +12,7 @@ struct PDPColorsCollectionView: View {
         VStack(alignment: .leading, spacing: 10){
             
             Text("Colors")
-                .font(.title3)
-                .fontWeight(.medium)
+                .terminaText(with: 12, weight: .demi)
                 .padding(.top,8)
                 .padding(.horizontal,8)
             

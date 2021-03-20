@@ -13,20 +13,20 @@ struct HomeCategoryListView: View {
             HStack {
                 VStack{
                     Text("All")
-                        .fontWeight(.thin)
+                        .terminaText(with: 16, weight: .light)
                         .foregroundColor(.white)
                 }
-                .frame(minWidth: 100, maxWidth: 200, minHeight: 52, maxHeight: 52)
+                .frame(minWidth: 100, maxWidth: 200, minHeight: 40, maxHeight: 40)
                 .background(Color.black)
                 .cornerRadius(26)
                 .padding(.trailing)
                 VStack{
                     Text("New Arrivals")
-                        .fontWeight(.thin)
+                        .terminaText(with: 16, weight: .light)
                         .foregroundColor(.black)
                 }
                 .padding()
-                .frame(minWidth: 100, maxWidth: 200, minHeight: 52, maxHeight: 52)
+                .frame(minWidth: 100, maxWidth: 200, minHeight: 40, maxHeight: 40)
                 .background(Color.white)
                 .overlay(
                     RoundedRectangle(cornerRadius: 26)
@@ -37,11 +37,11 @@ struct HomeCategoryListView: View {
                 
                 VStack{
                     Text("Men")
-                        .fontWeight(.thin)
+                        .terminaText(with: 16, weight: .light)
                         .foregroundColor(.black)
                 }
                 .padding()
-                .frame(minWidth: 100, maxWidth: 200, minHeight: 52, maxHeight: 52)
+                .frame(minWidth: 100, maxWidth: 200, minHeight: 40, maxHeight: 40)
                 .background(Color.white)
                 .overlay(
                     RoundedRectangle(cornerRadius: 26)
@@ -52,11 +52,11 @@ struct HomeCategoryListView: View {
                 
                 VStack{
                     Text("Women")
-                        .fontWeight(.thin)
+                        .terminaText(with: 16, weight: .light)
                         .foregroundColor(.black)
                 }
                 .padding()
-                .frame(minWidth: 100, maxWidth: 200, minHeight: 52, maxHeight: 52)
+                .frame(minWidth: 100, maxWidth: 200, minHeight: 40, maxHeight: 40)
                 .background(Color.white)
                 .overlay(
                     RoundedRectangle(cornerRadius: 26)
