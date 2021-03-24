@@ -13,7 +13,7 @@ struct FoodItemDetailView: View {
     
     let foodItem : FoodItem
     var body: some View {
-        ScrollView{
+        ScrollView(showsIndicators: false){
             VStack{
                 Image(foodItem.imageName)
                     .resizable()
@@ -72,9 +72,7 @@ struct FoodItemDetailView: View {
                 .frame(height: 64)
                 .background(Color.ec2purplecolor)
                 .cornerRadius(18)
-                .padding()
-//                .padding(.top)
-                
+                .padding()                
             }
         }
         .background(Color.ec2accentColor.edgesIgnoringSafeArea(.all))
