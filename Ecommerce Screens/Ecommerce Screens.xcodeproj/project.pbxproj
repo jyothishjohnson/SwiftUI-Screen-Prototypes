@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2252FC5925F9DD170060E8D8 /* PLPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FC5825F9DD170060E8D8 /* PLPView.swift */; };
+		225783712609AAB1004CCAC0 /* EC2FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225783702609AAB1004CCAC0 /* EC2FoodList.swift */; };
+		225783742609ABCC004CCAC0 /* FoodItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225783732609ABCC004CCAC0 /* FoodItemCell.swift */; };
 		226DDC8525EFBD5B008926D9 /* Ecommerce_ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226DDC8425EFBD5B008926D9 /* Ecommerce_ScreensApp.swift */; };
 		226DDC8725EFBD5B008926D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226DDC8625EFBD5B008926D9 /* ContentView.swift */; };
 		226DDC8925EFBD61008926D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226DDC8825EFBD61008926D9 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		227EAFF82603286900F78997 /* Termina Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 227EAFEF2603286900F78997 /* Termina Light.otf */; };
 		227EAFF92603286900F78997 /* Termina Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 227EAFF02603286900F78997 /* Termina Regular.otf */; };
 		227EAFFF26032A8D00F78997 /* Text+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227EAFFE26032A8D00F78997 /* Text+Font.swift */; };
+		22959814260ACF76007501A1 /* FoodItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22959813260ACF76007501A1 /* FoodItemDetailView.swift */; };
+		229D8AEF2608E115001C846A /* EC2MenuCateroryListCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D8AEE2608E115001C846A /* EC2MenuCateroryListCollection.swift */; };
 		22D2A3CF2601D4D100C72974 /* PLPSortFilterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2A3CE2601D4D100C72974 /* PLPSortFilterHeaderView.swift */; };
 		22D2A3D22602380E00C72974 /* PDPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2A3D12602380E00C72974 /* PDPView.swift */; };
 		22D2A3DD2602453B00C72974 /* PDPProductInitialDescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2A3DC2602453B00C72974 /* PDPProductInitialDescView.swift */; };
@@ -34,6 +38,8 @@
 		22DD863C25F0A3D200CD94BE /* HomeCategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD863B25F0A3D200CD94BE /* HomeCategoryListView.swift */; };
 		22DD863F25F0A49100CD94BE /* HomePortraitProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD863E25F0A49100CD94BE /* HomePortraitProductView.swift */; };
 		22DD864225F0B26400CD94BE /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD864125F0B26400CD94BE /* RoundedCorners.swift */; };
+		22DE3F4726078F8D003CB443 /* EC2Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DE3F4626078F8D003CB443 /* EC2Home.swift */; };
+		22DE3F4A260792B3003CB443 /* EC2HomeDeliveryAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DE3F49260792B3003CB443 /* EC2HomeDeliveryAddressCell.swift */; };
 		22E7DAAE25F6714E006F98EF /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E7DAAC25F6714E006F98EF /* home.png */; };
 		22E7DAAF25F6714E006F98EF /* home2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E7DAAD25F6714E006F98EF /* home2.png */; };
 		22F3CA542605DC2F006EEF02 /* home3.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F3CA532605DC2E006EEF02 /* home3.png */; };
@@ -45,6 +51,8 @@
 
 /* Begin PBXFileReference section */
 		2252FC5825F9DD170060E8D8 /* PLPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLPView.swift; sourceTree = "<group>"; };
+		225783702609AAB1004CCAC0 /* EC2FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EC2FoodList.swift; sourceTree = "<group>"; };
+		225783732609ABCC004CCAC0 /* FoodItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemCell.swift; sourceTree = "<group>"; };
 		226DDC8125EFBD5B008926D9 /* Ecommerce Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecommerce Screens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226DDC8425EFBD5B008926D9 /* Ecommerce_ScreensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecommerce_ScreensApp.swift; sourceTree = "<group>"; };
 		226DDC8625EFBD5B008926D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +71,8 @@
 		227EAFEF2603286900F78997 /* Termina Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Termina Light.otf"; sourceTree = "<group>"; };
 		227EAFF02603286900F78997 /* Termina Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Termina Regular.otf"; sourceTree = "<group>"; };
 		227EAFFE26032A8D00F78997 /* Text+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Font.swift"; sourceTree = "<group>"; };
+		22959813260ACF76007501A1 /* FoodItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemDetailView.swift; sourceTree = "<group>"; };
+		229D8AEE2608E115001C846A /* EC2MenuCateroryListCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EC2MenuCateroryListCollection.swift; sourceTree = "<group>"; };
 		22D2A3CE2601D4D100C72974 /* PLPSortFilterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLPSortFilterHeaderView.swift; sourceTree = "<group>"; };
 		22D2A3D12602380E00C72974 /* PDPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPView.swift; sourceTree = "<group>"; };
 		22D2A3DC2602453B00C72974 /* PDPProductInitialDescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPProductInitialDescView.swift; sourceTree = "<group>"; };
@@ -73,6 +83,8 @@
 		22DD863B25F0A3D200CD94BE /* HomeCategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryListView.swift; sourceTree = "<group>"; };
 		22DD863E25F0A49100CD94BE /* HomePortraitProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePortraitProductView.swift; sourceTree = "<group>"; };
 		22DD864125F0B26400CD94BE /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		22DE3F4626078F8D003CB443 /* EC2Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EC2Home.swift; sourceTree = "<group>"; };
+		22DE3F49260792B3003CB443 /* EC2HomeDeliveryAddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EC2HomeDeliveryAddressCell.swift; sourceTree = "<group>"; };
 		22E7DAAC25F6714E006F98EF /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = CommonRes/home.png; sourceTree = SOURCE_ROOT; };
 		22E7DAAD25F6714E006F98EF /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home2.png; path = CommonRes/home2.png; sourceTree = SOURCE_ROOT; };
 		22F3CA532605DC2E006EEF02 /* home3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home3.png; sourceTree = "<group>"; };
@@ -96,6 +108,7 @@
 		226DDC7825EFBD5B008926D9 = {
 			isa = PBXGroup;
 			children = (
+				225783732609ABCC004CCAC0 /* FoodItemCell.swift */,
 				227EAFE62603281900F78997 /* CommonRes */,
 				226DDC8325EFBD5B008926D9 /* Ecommerce Screens */,
 				226DDC8225EFBD5B008926D9 /* Products */,
@@ -113,6 +126,7 @@
 		226DDC8325EFBD5B008926D9 /* Ecommerce Screens */ = {
 			isa = PBXGroup;
 			children = (
+				226DDC8425EFBD5B008926D9 /* Ecommerce_ScreensApp.swift */,
 				22DE3F4526078BD2003CB443 /* Ecommerce2 */,
 				22DE3F4426078B91003CB443 /* Ecommerce1 */,
 				227EAFFC26032A6A00F78997 /* Utility */,
@@ -190,7 +204,6 @@
 		22DE3F4426078B91003CB443 /* Ecommerce1 */ = {
 			isa = PBXGroup;
 			children = (
-				226DDC8425EFBD5B008926D9 /* Ecommerce_ScreensApp.swift */,
 				226DDC8625EFBD5B008926D9 /* ContentView.swift */,
 				226DDC9425EFC399008926D9 /* HomeScreenView.swift */,
 				2252FC5825F9DD170060E8D8 /* PLPView.swift */,
@@ -211,6 +224,11 @@
 		22DE3F4526078BD2003CB443 /* Ecommerce2 */ = {
 			isa = PBXGroup;
 			children = (
+				22DE3F4626078F8D003CB443 /* EC2Home.swift */,
+				229D8AEE2608E115001C846A /* EC2MenuCateroryListCollection.swift */,
+				225783702609AAB1004CCAC0 /* EC2FoodList.swift */,
+				22DE3F49260792B3003CB443 /* EC2HomeDeliveryAddressCell.swift */,
+				22959813260ACF76007501A1 /* FoodItemDetailView.swift */,
 			);
 			path = Ecommerce2;
 			sourceTree = "<group>";
@@ -301,16 +319,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				22D2A3DD2602453B00C72974 /* PDPProductInitialDescView.swift in Sources */,
+				229D8AEF2608E115001C846A /* EC2MenuCateroryListCollection.swift in Sources */,
 				227EAFFF26032A8D00F78997 /* Text+Font.swift in Sources */,
 				22DD863525F09D0A00CD94BE /* PageControl.swift in Sources */,
 				2252FC5925F9DD170060E8D8 /* PLPView.swift in Sources */,
 				226DDC9525EFC399008926D9 /* HomeScreenView.swift in Sources */,
+				225783712609AAB1004CCAC0 /* EC2FoodList.swift in Sources */,
 				22DD863F25F0A49100CD94BE /* HomePortraitProductView.swift in Sources */,
+				22DE3F4726078F8D003CB443 /* EC2Home.swift in Sources */,
 				22DD863C25F0A3D200CD94BE /* HomeCategoryListView.swift in Sources */,
 				226DDC8725EFBD5B008926D9 /* ContentView.swift in Sources */,
 				226DDC8525EFBD5B008926D9 /* Ecommerce_ScreensApp.swift in Sources */,
+				22959814260ACF76007501A1 /* FoodItemDetailView.swift in Sources */,
+				225783742609ABCC004CCAC0 /* FoodItemCell.swift in Sources */,
 				22D2A3D22602380E00C72974 /* PDPView.swift in Sources */,
 				22DD863925F09F0900CD94BE /* Color+Codable.swift in Sources */,
+				22DE3F4A260792B3003CB443 /* EC2HomeDeliveryAddressCell.swift in Sources */,
 				22D2A3CF2601D4D100C72974 /* PLPSortFilterHeaderView.swift in Sources */,
 				22DD864225F0B26400CD94BE /* RoundedCorners.swift in Sources */,
 				226DDC9825EFCDA1008926D9 /* HomeTopBannerView.swift in Sources */,
