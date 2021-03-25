@@ -15,9 +15,25 @@ struct FoodItemDetailView: View {
     var body: some View {
         ScrollView(showsIndicators: false){
             VStack{
+                HStack{
+                    Spacer()
+                    Image(systemName: "xmark")
+                        .resizable()
+                        .frame(width: 16, height: 16)
+                        .foregroundColor(.white)
+                        .padding(10)
+                        .background(Color.gray.opacity(0.3))
+                        .cornerRadius(21)
+                        .padding(.horizontal,20)
+                        .onTapGesture {
+                            presentationMode.wrappedValue.dismiss()
+                        }
+                }
+                .frame(height: 40)
                 Image(foodItem.imageName)
                     .resizable()
-                    .frame(height: 360)
+                    .frame(height: 300)
+                    .clipShape(AngledRect(percent:10))
                     .cornerRadius(20)
                     .padding()
                 
@@ -58,6 +74,7 @@ struct FoodItemDetailView: View {
                 .padding()
                 
                 Spacer()
+                    .frame(height: 88)
                 
                 HStack{
                     Spacer()
@@ -85,5 +102,21 @@ struct FoodItemDetailView_Previews: PreviewProvider {
     static let food = FoodItem(name: "Chicken Burger from India", imageName: "ec2_b_2", quantity: "400g", price: 10.5, desc: foodDesc, isNew: true)
     static var previews: some View {
         FoodItemDetailView(foodItem: food)
+    }
+}
+
+
+struct AngledRect : Shape {
+    
+    let percent : CGFloat
+    
+    func path(in rect: CGRect) -> Path {
+        return Path{ path in
+            path.move(to: CGPoint(x: rect.minX, y: 0))
+            path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY * (percent)/100))
+            path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
+            path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY * (100 - percent)/100))
+            path.addLine(to: CGPoint(x: rect.minX, y: rect.minY))
+        }
     }
 }
