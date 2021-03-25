@@ -27,9 +27,12 @@ struct EC2FoodList: View {
                     
                 }
             }
-            .sheet(isPresented: $showingDetail, content: {
+            .fullScreenCover(isPresented: $showingDetail, content: {
                 FoodItemDetailView(foodItem: foodItems[currentFoodItemIndex])
             })
+//            .sheet(isPresented: $showingDetail, content: {
+//                FoodItemDetailView(foodItem: foodItems[currentFoodItemIndex])
+//            })
         }
     }
 }

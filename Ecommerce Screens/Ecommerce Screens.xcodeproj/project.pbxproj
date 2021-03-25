@@ -28,6 +28,7 @@
 		227EAFFF26032A8D00F78997 /* Text+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227EAFFE26032A8D00F78997 /* Text+Font.swift */; };
 		22959814260ACF76007501A1 /* FoodItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22959813260ACF76007501A1 /* FoodItemDetailView.swift */; };
 		229D8AEF2608E115001C846A /* EC2MenuCateroryListCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D8AEE2608E115001C846A /* EC2MenuCateroryListCollection.swift */; };
+		22B9D0D2260CB78700F4C72E /* ShapeOverlayDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9D0D1260CB78700F4C72E /* ShapeOverlayDemo.swift */; };
 		22D2A3CF2601D4D100C72974 /* PLPSortFilterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2A3CE2601D4D100C72974 /* PLPSortFilterHeaderView.swift */; };
 		22D2A3D22602380E00C72974 /* PDPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2A3D12602380E00C72974 /* PDPView.swift */; };
 		22D2A3DD2602453B00C72974 /* PDPProductInitialDescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2A3DC2602453B00C72974 /* PDPProductInitialDescView.swift */; };
@@ -73,6 +74,7 @@
 		227EAFFE26032A8D00F78997 /* Text+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Font.swift"; sourceTree = "<group>"; };
 		22959813260ACF76007501A1 /* FoodItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemDetailView.swift; sourceTree = "<group>"; };
 		229D8AEE2608E115001C846A /* EC2MenuCateroryListCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EC2MenuCateroryListCollection.swift; sourceTree = "<group>"; };
+		22B9D0D1260CB78700F4C72E /* ShapeOverlayDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeOverlayDemo.swift; sourceTree = "<group>"; };
 		22D2A3CE2601D4D100C72974 /* PLPSortFilterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLPSortFilterHeaderView.swift; sourceTree = "<group>"; };
 		22D2A3D12602380E00C72974 /* PDPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPView.swift; sourceTree = "<group>"; };
 		22D2A3DC2602453B00C72974 /* PDPProductInitialDescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPProductInitialDescView.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				225783702609AAB1004CCAC0 /* EC2FoodList.swift */,
 				22DE3F49260792B3003CB443 /* EC2HomeDeliveryAddressCell.swift */,
 				22959813260ACF76007501A1 /* FoodItemDetailView.swift */,
+				22B9D0D1260CB78700F4C72E /* ShapeOverlayDemo.swift */,
 			);
 			path = Ecommerce2;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				22D2A3DD2602453B00C72974 /* PDPProductInitialDescView.swift in Sources */,
 				229D8AEF2608E115001C846A /* EC2MenuCateroryListCollection.swift in Sources */,
 				227EAFFF26032A8D00F78997 /* Text+Font.swift in Sources */,
+				22B9D0D2260CB78700F4C72E /* ShapeOverlayDemo.swift in Sources */,
 				22DD863525F09D0A00CD94BE /* PageControl.swift in Sources */,
 				2252FC5925F9DD170060E8D8 /* PLPView.swift in Sources */,
 				226DDC9525EFC399008926D9 /* HomeScreenView.swift in Sources */,

@@ -11,6 +11,9 @@ import SwiftUI
 struct Ecommerce_ScreensApp: App {
     var body: some Scene {
         WindowGroup {
+//            NavigationView{
+//                ContentView()
+//            }
             EC2Home()
         }
     }
