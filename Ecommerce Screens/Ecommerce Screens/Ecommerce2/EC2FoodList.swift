@@ -52,7 +52,7 @@ struct FoodItem: Identifiable{
     let desc : String
     let isNew : Bool
     
-    static let foodDesc : String = "Marble beef, cheddar cheese , jalapeno pepper, picked cucumber, lettuce, red onion, BBQ sauce"
+    static let foodDesc : String = "Grilled Chicken, cheddar cheese , jalapeno pepper, picked cucumber, lettuce, red onion, BBQ sauce"
     static let list : [FoodItem] = [
         FoodItem(name: "California Double Cheese", imageName: "ec2_b_2", quantity: "400g", price: 10.24, desc: foodDesc, isNew: true),
         FoodItem(name: "Chicken Burger", imageName: "ec2_b_3", quantity: "400g", price: 5.32, desc: foodDesc, isNew: false),

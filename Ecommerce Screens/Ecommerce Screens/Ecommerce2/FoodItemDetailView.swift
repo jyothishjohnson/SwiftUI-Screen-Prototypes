@@ -33,8 +33,10 @@ struct FoodItemDetailView: View {
                 Image(foodItem.imageName)
                     .resizable()
                     .frame(height: 300)
-                    .clipShape(AngledRect(percent:10))
-                    .cornerRadius(20)
+//                    .cornerRadius(20)
+                    .clipShape(
+                        AngledRect(percent:10)
+                    )
                     .padding()
                 
                 Text("New")
@@ -98,7 +100,7 @@ struct FoodItemDetailView: View {
 }
 
 struct FoodItemDetailView_Previews: PreviewProvider {
-    static let foodDesc : String = "Marble beef, cheddar cheese , jalapeno pepper, picked cucumber, lettuce, red onion, BBQ sauce"
+    static let foodDesc : String = "Grilled Chicken, cheddar cheese , jalapeno pepper, picked cucumber, lettuce, red onion, BBQ sauce"
     static let food = FoodItem(name: "Chicken Burger from India", imageName: "ec2_b_2", quantity: "400g", price: 10.5, desc: foodDesc, isNew: true)
     static var previews: some View {
         FoodItemDetailView(foodItem: food)

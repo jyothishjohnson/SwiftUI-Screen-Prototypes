@@ -9,6 +9,8 @@ import SwiftUI
 
 struct EC2Home: View {
     
+    @State private var showOrders = false
+    
     var body: some View {
             VStack {
                 HStack{
@@ -29,6 +31,13 @@ struct EC2Home: View {
                         .foregroundColor(.white)
                         .background(Color.ec2accentColor)
                         .cornerRadius(20)
+                        .onTapGesture {
+                            showOrders = true
+                        }
+                        .fullScreenCover(isPresented: $showOrders, content: {
+                            EC2OrderScreen()
+                        })
+                        
                     
                 }
                 .padding(.horizontal,20)
