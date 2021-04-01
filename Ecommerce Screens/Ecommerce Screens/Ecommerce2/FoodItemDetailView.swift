@@ -33,7 +33,7 @@ struct FoodItemDetailView: View {
                 Image(foodItem.imageName)
                     .resizable()
                     .frame(height: 300)
-//                    .cornerRadius(20)
+                    .cornerRadius(20)
                     .clipShape(
                         AngledRect(percent:10)
                     )
