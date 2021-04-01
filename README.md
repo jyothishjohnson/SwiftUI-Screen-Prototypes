@@ -13,7 +13,7 @@ A collection of App prototype screens made with SwiftUI, to experiment and test 
 ### Order Detail Screen
 <img src="/Ecommerce Screens/CommonRes/ec2_3.png" width="292.5" height="633">
 
-### <a src="https://dribbble.com/shots/14511763-Food-Delivery-App-Design">Inspired by</a>
+### <a href="https://dribbble.com/shots/14511763-Food-Delivery-App-Design">Inspired by</a>
 
 
 ## Ecommerce Screens
